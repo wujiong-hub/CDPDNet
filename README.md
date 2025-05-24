@@ -54,6 +54,7 @@ The post_label can be downloaded via [link](https://portland-my.sharepoint.com/:
    ORGAN_DATASET_DIR = '/your/path/to/dataset'
    NUM_WORKER = 4  # Adjust based on your CPU
    ## For the above 11 datasets, you can directly download the post_label and arrange them in the corresponding folders.
+   
 ## Training 
 The dataloader file is ldm/data/camus.py. Change the corresponding training/validation path for each dataset to start training. For more details, please refer to the [Latent Diffusion Model(LDM)](https://github.com/CompVis/latent-diffusion).
 1. Train the LDM-based latent feature extraction module
