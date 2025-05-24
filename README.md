@@ -30,9 +30,9 @@ This repository is the official implementation for the paper:
 
 
 ## Datasets
-- [CAMUS dataset, including two-chamber (CAMUS-2CH) and four-chamber (CAMUS-4CH) images](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/6373703d73e9f0047faa1bc8)
-- [EchoNet-Dynamic dataset](https://stanfordaimi.azurewebsites.net/datasets/834e1cd1-92f7-4268-9daa-d359198b310a)
-- [Automated Cardiac Diagnosis Challenge (ACDC) dataset](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/637218c173e9f0047faa00fb)
+- [01 Multi-Atlas Labeling Beyond the Cranial Vault - Workshop and Challenge (BTCV)](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/6373703d73e9f0047faa1bc8)
+- [02 Pancreas-CT TCIA ## The label we used for Dataset 01 and 02 is](https://stanfordaimi.azurewebsites.net/datasets/834e1cd1-92f7-4268-9daa-d359198b310a)
+- [03 Combined Healthy Abdominal Organ Segmentation (CHAOS)](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/637218c173e9f0047faa00fb)
 
 ## Datasets preprocessing
 1. Download all datasets, unzip them, and put them inside the corresponding datasets folder.
