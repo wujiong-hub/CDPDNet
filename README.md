@@ -55,22 +55,10 @@ The post_label can be downloaded via [link](https://portland-my.sharepoint.com/:
    NUM_WORKER = 4  # Adjust based on your CPU
    ## For the above 11 datasets, you can directly download the post_label and arrange them in the corresponding folders.
    
-## Training 
-The dataloader file is ldm/data/camus.py. Change the corresponding training/validation path for each dataset to start training. For more details, please refer to the [Latent Diffusion Model(LDM)](https://github.com/CompVis/latent-diffusion).
-1. Train the LDM-based latent feature extraction module
-   Firstly, the autoencoder should be trained by running the following script:
+## Training
    ```python
-   python main.py --base configs/autoencoder/autoencoder_camus_vq16.yaml --train --gpus 0,1,2,3,4,5,6,7
+   CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=1238 train.py --data_root_path DATA_DIR --dist True --uniform_sample
    ```
-   Then, we train the diffusion model. Specify the file path of "ckpt_path" to the autoencoder model saved path in the first training step under the "first_stage_config". 
-   ```python
-   python main.py --base configs/latent-diffusion/casmus-ldm-vq16-64ch.yaml --train --gpus 0,1,2,3,4,5,6,7
-   ```
-3. Train the registration network
-   ```python
-   python train.py
-   ```
-
 ## Testing
 ```python
    python test.py
