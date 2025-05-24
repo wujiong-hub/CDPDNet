@@ -31,7 +31,7 @@ This repository is the official implementation for the paper:
 
 ## Datasets
 - [01 Multi-Atlas Labeling Beyond the Cranial Vault - Workshop and Challenge (BTCV)](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/6373703d73e9f0047faa1bc8)
-- [02 Pancreas-CT TCIA](https://stanfordaimi.azurewebsites.net/datasets/834e1cd1-92f7-4268-9daa-d359198b310a) ## The label we used for Dataset 01 and 02 is [here]((https://stanfordaimi.azurewebsites.net/datasets/834e1cd1-92f7-4268-9daa-d359198b310a))
+- [02 Pancreas-CT TCIA](https://stanfordaimi.azurewebsites.net/datasets/834e1cd1-92f7-4268-9daa-d359198b310a) ## The label we used for Dataset 01 and 02 is [here](https://stanfordaimi.azurewebsites.net/datasets/834e1cd1-92f7-4268-9daa-d359198b310a)
 - [03 Combined Healthy Abdominal Organ Segmentation (CHAOS)](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/637218c173e9f0047faa00fb)
 
 ## Datasets preprocessing
