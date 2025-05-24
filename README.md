@@ -42,7 +42,9 @@ This repository is the official implementation for the paper:
 - [10 Decathlon (Liver, Lung, Pancreas, HepaticVessel, Spleen, Colon](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2)
 - [11 CT volumes with multiple organ segmentations (CT-ORG)](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=61080890)
 - [12 AbdomenCT 12organ](https://zenodo.org/records/7860267)
+
 The ppost_label can be downloaded vai [link](https://portland-my.sharepoint.com/:u:/g/personal/jliu288-c_my_cityu_edu_hk/EX04Ilv4zh1Lm_HB0wnpaykB4Slef043RVWhX3lN05gylw?e=qG0DOS)
+
 ## Datasets preprocessing
 1. Download all datasets, unzip them, and put them inside the corresponding datasets folder.
 2. For the CAMUS dataset, directly run the script:
