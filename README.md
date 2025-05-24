@@ -25,7 +25,9 @@ This repository is the official implementation for the paper:
 - conda activate cdpdnet
 - pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121
   (Please modify according to your server CUDA version)
+- pip install 'monai[all]'
 - pip install -r requirements.txt
+
 
 ## Datasets
 - [CAMUS dataset, including two-chamber (CAMUS-2CH) and four-chamber (CAMUS-4CH) images](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/6373703d73e9f0047faa1bc8)
