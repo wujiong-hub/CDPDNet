@@ -1,7 +1,9 @@
 connected-components-3d
+fastremap
+tensorboard
+tqdm
 h5py==3.6.0
 monai==0.9.0
-torch==1.11.0
-tqdm
-fastremap
 SimpleITK==1.2.4
+torch==2.4.0
+MedPy==0.5.2
