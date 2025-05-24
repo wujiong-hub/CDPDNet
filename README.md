@@ -13,7 +13,7 @@ This repository is the official implementation for the paper:
 ## Overview
 
 <p align="center">
-  <img src="documents/fig1_architecture.jpg" alt="Figure 1 Overview" width="800">
+  <img src="documents/fig1_wholearch.jpg" alt="Figure 1 Overview" width="800">
   <br>
 </p>
 
