@@ -46,25 +46,14 @@ This repository is the official implementation for the paper:
 The ppost_label can be downloaded via [link](https://portland-my.sharepoint.com/:u:/g/personal/jliu288-c_my_cityu_edu_hk/EX04Ilv4zh1Lm_HB0wnpaykB4Slef043RVWhX3lN05gylw?e=qG0DOS)
 
 ## Datasets preprocessing
-1. Download all datasets, unzip them, and put them inside the corresponding datasets folder.
-2. For the CAMUS dataset, directly run the script:
+1. **Download and organize the dataset**  
+   Arrange the downloaded data according to the structure specified in [`dataset/dataset_list/PAOT.txt`](./dataset/dataset_list/PAOT.txt).
+
+2. **Configure preprocessing parameters**  
+   Open [`label_transfer.py`](./label_transfer.py) and modify the following lines:
    ```python
-   cd datasets/scripts/
-   mkdir ../CAMUS/prep/
-   python preprocess_camus.py
-   ```
-   For the ECHO dataset, please get the github codes of echonet from the link https://github.com/echonet/dynamic, and install its environment. Then run the script:
-   ```python
-   cd datasets/script/
-   mkdir ../ECHO/prep/
-   python preprocess_echo.py
-   ```
-   For the ACDC dataset, directly run the script:
-   ```python
-   cd datasets/script/
-   mkdir ../ACDC/prep/
-   python preprocess_acdc.py
-   ```
+   ORGAN_DATASET_DIR = '/your/path/to/dataset'
+   NUM_WORKER = 4  # Adjust based on your CPU
 ## Training 
 The dataloader file is ldm/data/camus.py. Change the corresponding training/validation path for each dataset to start training. For more details, please refer to the [Latent Diffusion Model(LDM)](https://github.com/CompVis/latent-diffusion).
 1. Train the LDM-based latent feature extraction module
