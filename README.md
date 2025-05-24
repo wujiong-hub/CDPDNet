@@ -35,7 +35,6 @@ This repository is the official implementation for the paper:
 - [03 Combined Healthy Abdominal Organ Segmentation (CHAOS)](https://chaos.grand-challenge.org/Combined_Healthy_Abdominal_Organ_Segmentation/)
 - [04 Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094#learn_the_details)
 - [05 Kidney and Kidney Tumor Segmentation (KiTS)](https://kits21.kits-challenge.org/participate#download-block)
-- [06 Liver segmentation (3D-IRCADb)](https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/)
 - [07 WORD: A large scale dataset, benchmark and clinical applicable study for abdominal organ segmentation from CT image](https://github.com/HiLab-git/WORD)
 - [08 AbdomenCT-1K](https://github.com/JunMa11/AbdomenCT-1K)
 - [09 Multi-Modality Abdominal Multi-Organ Segmentation Challenge (AMOS)](https://amos22.grand-challenge.org/)
@@ -43,17 +42,18 @@ This repository is the official implementation for the paper:
 - [11 CT volumes with multiple organ segmentations (CT-ORG)](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=61080890)
 - [12 AbdomenCT 12organ](https://zenodo.org/records/7860267)
 
-The ppost_label can be downloaded via [link](https://portland-my.sharepoint.com/:u:/g/personal/jliu288-c_my_cityu_edu_hk/EX04Ilv4zh1Lm_HB0wnpaykB4Slef043RVWhX3lN05gylw?e=qG0DOS)
+The post_label can be downloaded via [link](https://portland-my.sharepoint.com/:u:/g/personal/jliu288-c_my_cityu_edu_hk/EX04Ilv4zh1Lm_HB0wnpaykB4Slef043RVWhX3lN05gylw?e=qG0DOS)
 
 ## Datasets preprocessing
 1. **Download and organize the dataset**  
-   Arrange the downloaded data according to the structure specified in [`dataset/dataset_list/PAOT.txt`](./dataset/dataset_list/PAOT.txt).
+   Arrange the downloaded data according to the structure specified in [`dataset/dataset_list/datasets.txt`](./dataset/dataset_list/datasets.txt).
 
 2. **Configure preprocessing parameters**  
    Open [`label_transfer.py`](./label_transfer.py) and modify the following lines:
    ```python
    ORGAN_DATASET_DIR = '/your/path/to/dataset'
    NUM_WORKER = 4  # Adjust based on your CPU
+   ## For the above 11 datasets, you can directly download the post_label and arrange them in the corresponding folders.
 ## Training 
 The dataloader file is ldm/data/camus.py. Change the corresponding training/validation path for each dataset to start training. For more details, please refer to the [Latent Diffusion Model(LDM)](https://github.com/CompVis/latent-diffusion).
 1. Train the LDM-based latent feature extraction module
