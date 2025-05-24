@@ -39,7 +39,7 @@ This repository is the official implementation for the paper:
 - [07 WORD: A large scale dataset, benchmark and clinical applicable study for abdominal organ segmentation from CT image](https://github.com/HiLab-git/WORD)
 - [08 AbdomenCT-1K](https://github.com/JunMa11/AbdomenCT-1K)
 - [09 Multi-Modality Abdominal Multi-Organ Segmentation Challenge (AMOS)](https://amos22.grand-challenge.org/)
-- [10 Decathlon (Liver, Lung, Pancreas, HepaticVessel, Spleen, Colon](https://amos22.grand-challenge.org/](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2)
+- [10 Decathlon (Liver, Lung, Pancreas, HepaticVessel, Spleen, Colon](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2)
 - [11 CT volumes with multiple organ segmentations (CT-ORG)](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=61080890)
 - [12 AbdomenCT 12organ](https://zenodo.org/records/7860267)
 
