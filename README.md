@@ -53,7 +53,6 @@ The post_label can be downloaded via [link](https://portland-my.sharepoint.com/:
    ORGAN_DATASET_DIR = '/your/path/to/dataset'
    NUM_WORKER = 4  # Adjust based on your CPU
    ## For the above 11 datasets, you can directly download the post_label and arrange them in the corresponding folders.
-   ```python
    python -W ignore label_transfer.py
    ```
 3. ***Dataset organs/tumors and corresponding label index*
