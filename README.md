@@ -58,14 +58,16 @@ The post_label can be downloaded via [link](https://portland-my.sharepoint.com/:
    python -W ignore label_transfer.py
    ```
 3. ***Dataset organs/tumors and corresponding label index*
-    1. Spleen                    9. Postcava               17. Left Lung              25. Celiac Trunk
-     2. Right Kidney             10. Portal Vein & SV      18. Colon                  26. Kidney Tumor
-     3. Left Kidney              11. Pancreas              19. Intestine              27. Liver Tumor
-     4. Gall Bladder             12. Right Adrenal Gland   20. Rectum                 28. Pancreas Tumor
-     5. Esophagus                13. Left Adrenal Gland    21. Bladder                29. Hepatic Vessel Tumor
-     6. Liver                    14. Duodenum              22. Prostate               30. Lung Tumor
-     7. Stomach                  15. Hepatic Vessel        23. Left Head of Femur     31. Colon Tumor
-     8. Aorta                    16. Right Lung            24. Right Head of Femur    32. Kidney Cyst
+    Index  Organ                     Index  Organ                     Index  Organ                     Index  Organ
+     1    Spleen                      9    Postcava                  17    Left Lung                 25    Celiac Trunk
+     2    Right Kidney               10    Portal Vein & SV         18    Colon                     26    Kidney Tumor
+     3    Left Kidney                11    Pancreas                 19    Intestine                 27    Liver Tumor
+     4    Gall Bladder               12    Right Adrenal Gland      20    Rectum                    28    Pancreas Tumor
+     5    Esophagus                  13    Left Adrenal Gland       21    Bladder                   29    Hepatic Vessel Tumor
+     6    Liver                      14    Duodenum                 22    Prostate                  30    Lung Tumor
+     7    Stomach                    15    Hepatic Vessel           23    Left Head of Femur        31    Colon Tumor
+     8    Aorta                      16    Right Lung               24    Right Head of Femur       32    Kidney Cyst
+
 
 
 ## Training
