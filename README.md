@@ -84,8 +84,8 @@ CUDA_VISIBLE_DEVICES=0 python test.py --data_root_path DATA_DIR --resume CHECKPO
 
 Some of the codes in this repo are borrowed from:
 - [Monai](https://monai.io/)
-- [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
-- [Transmatch](https://github.com/tzayuan/TransMatch_TMI)
+- [CLIP-Driven-Universal-Model](https://github.com/ljwztc/CLIP-Driven-Universal-Model/tree/main)
+- [nnUNet](https://github.com/MIC-DKFZ/nnUNet)
 
 ## Citation
 If you find this repository useful, please consider citing this paper:
