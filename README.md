@@ -54,6 +54,44 @@ The post_label can be downloaded via [link](https://portland-my.sharepoint.com/:
    ORGAN_DATASET_DIR = '/your/path/to/dataset'
    NUM_WORKER = 4  # Adjust based on your CPU
    ## For the above 11 datasets, you can directly download the post_label and arrange them in the corresponding folders.
+   ```python
+   python -W ignore label_transfer.py
+   ```
+3. ***Dataset organs/tumors and corresponding label index*
+   Index    Label
+  -------------------------------
+  1        Spleen  
+  2        Right Kidney  
+  3        Left Kidney  
+  4        Gall Bladder  
+  5        Esophagus  
+  6        Liver  
+  7        Stomach  
+  8        Aorta  
+  9        Postcava  
+  10       Portal Vein and Splenic Vein  
+  11       Pancreas  
+  12       Right Adrenal Gland  
+  13       Left Adrenal Gland  
+  14       Duodenum  
+  15       Hepatic Vessel  
+  16       Right Lung  
+  17       Left Lung  
+  18       Colon  
+  19       Intestine  
+  20       Rectum  
+  21       Bladder  
+  22       Prostate  
+  23       Left Head of Femur  
+  24       Right Head of Femur  
+  25       Celiac Trunk  
+  26       Kidney Tumor  
+  27       Liver Tumor  
+  28       Pancreas Tumor  
+  29       Hepatic Vessel Tumor  
+  30       Lung Tumor  
+  31       Colon Tumor  
+  32       Kidney Cyst  
    
 ## Training
    ```python
