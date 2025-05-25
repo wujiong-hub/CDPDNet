@@ -44,7 +44,6 @@ def validation(model, ValLoader, val_transforms, args):
         dice_list[key] = np.zeros((2, NUM_CLASS)) # 1st row for dice, 2nd row for count
         hd95_list[key] = np.zeros((2, NUM_CLASS)) # 1st row for dice, 2nd row for count
     for index, batch in enumerate(tqdm(ValLoader)):
-        print('%d processd' % (index)) 
         image, label, name = batch["image"].cuda(), batch["post_label"], batch["name"]
 
         taskid = []
