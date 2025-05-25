@@ -2,6 +2,10 @@ connected-components-3d
 fastremap
 tensorboard
 tqdm
+batchgenerators
+ml_collections
+timm
+transformers
 h5py==3.6.0
 monai==0.9.0
 SimpleITK==2.3.1
