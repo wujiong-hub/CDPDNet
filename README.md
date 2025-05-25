@@ -58,41 +58,16 @@ The post_label can be downloaded via [link](https://portland-my.sharepoint.com/:
    python -W ignore label_transfer.py
    ```
 3. ***Dataset organs/tumors and corresponding label index*
-   Index    Label
-  -------------------------------
-  1        Spleen  
-  2        Right Kidney  
-  3        Left Kidney  
-  4        Gall Bladder  
-  5        Esophagus  
-  6        Liver  
-  7        Stomach  
-  8        Aorta  
-  9        Postcava  
-  10       Portal Vein and Splenic Vein  
-  11       Pancreas  
-  12       Right Adrenal Gland  
-  13       Left Adrenal Gland  
-  14       Duodenum  
-  15       Hepatic Vessel  
-  16       Right Lung  
-  17       Left Lung  
-  18       Colon  
-  19       Intestine  
-  20       Rectum  
-  21       Bladder  
-  22       Prostate  
-  23       Left Head of Femur  
-  24       Right Head of Femur  
-  25       Celiac Trunk  
-  26       Kidney Tumor  
-  27       Liver Tumor  
-  28       Pancreas Tumor  
-  29       Hepatic Vessel Tumor  
-  30       Lung Tumor  
-  31       Colon Tumor  
-  32       Kidney Cyst  
-   
+   Index  Label                   Index  Label                      Index  Label                    Index  Label
+        1      Spleen                 9      Postcava                  17     Left Lung               25     Celiac Trunk
+        2      Right Kidney           10     Portal Vein and Splenic   18     Colon                   26     Kidney Tumor
+        3      Left Kidney            11     Pancreas                  19     Intestine               27     Liver Tumor
+        4      Gall Bladder           12     Right Adrenal Gland       20     Rectum                  28     Pancreas Tumor
+        5      Esophagus              13     Left Adrenal Gland        21     Bladder                 29     Hepatic Vessel Tumor
+        6      Liver                  14     Duodenum                  22     Prostate                30     Lung Tumor
+        7      Stomach                15     Hepatic Vessel            23     Left Head of Femur      31     Colon Tumor
+        8      Aorta                  16     Right Lung                24     Right Head of Femur     32     Kidney Cyst
+
 ## Training
    ```python
    CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=1238 train.py --data_root_path DATA_DIR --dist True --uniform_sample
