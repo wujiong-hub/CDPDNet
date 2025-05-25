@@ -35,7 +35,7 @@ pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https
 # Install MONAI and additional dependencies
 pip install 'monai[all]'
 pip install -r requirements.txt
-
+```
 
 ## Datasets
 - [01 Multi-Atlas Labeling Beyond the Cranial Vault - Workshop and Challenge (BTCV)](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
