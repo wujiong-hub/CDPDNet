@@ -100,10 +100,11 @@ CUDA_VISIBLE_DEVICES=0 python test.py --data_root_path DATA_DIR --resume CHECKPO
 
 ## Acknowledgement
 
-Some of the codes in this repo are borrowed from:
-- [Monai](https://monai.io/)
+We appreciate the effort of the following repositories in providing open-source code to the community:
+
+- [MONAI](https://monai.io/)
 - [CLIP-Driven-Universal-Model](https://github.com/ljwztc/CLIP-Driven-Universal-Model/tree/main)
-- [nnUNet](https://github.com/MIC-DKFZ/nnUNet)
+- [nnU-Net](https://github.com/MIC-DKFZ/nnUNet)
 
 ## Citation
 If you find this repository useful, please consider citing this paper:
