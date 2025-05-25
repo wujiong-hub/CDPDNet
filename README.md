@@ -83,7 +83,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --data_root_path DATA_DIR --resume CHECKPO
 ## Acknowledgement
 
 Some of the codes in this repo are borrowed from:
-- [Latent Diffusion Model(LDM)](https://github.com/CompVis/latent-diffusion)
+- [Monai](https://monai.io/)
 - [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
 - [Transmatch](https://github.com/tzayuan/TransMatch_TMI)
 
