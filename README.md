@@ -76,10 +76,10 @@ The post_label can be downloaded via [link](https://portland-my.sharepoint.com/:
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=1238 train.py --data_root_path DATA_DIR --dist True --uniform_sample
 ```
 ## Testing
-1. Do the inference process directly adopted our trained model:
+1. Do the inference process directly adopt our trained model:
 ```python
 cd pretrained_weights/
-wget https://huggingface.co/jwu2009/CDPDNet/resolve/main/cdpdnet.pth?download=true
+wget https://huggingface.co/jwu2009/CDPDNet/resolve/main/cdpdnet.pth
 cd ../
 CUDA_VISIBLE_DEVICES=0 python test.py --data_root_path DATA_DIR --resume pretrained_weights/cdpdnet.pth 
 ```
