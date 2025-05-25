@@ -77,7 +77,7 @@ The post_label can be downloaded via [link](https://portland-my.sharepoint.com/:
    ```
 ## Testing
 ```python
-   CUDA_VISIBLE_DEVICES=0 python test.py --data_root_path DATA_DIR --resume CHECKPOINT_PATH 
+CUDA_VISIBLE_DEVICES=0 python test.py --data_root_path DATA_DIR --resume CHECKPOINT_PATH 
 ```
 
 ## Acknowledgement
