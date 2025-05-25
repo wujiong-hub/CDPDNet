@@ -55,7 +55,9 @@ The post_label can be downloaded via [link](https://portland-my.sharepoint.com/:
    ## For the above 11 datasets, you can directly download the post_label and arrange them in the corresponding folders.
    python -W ignore label_transfer.py
    ```
-3. ***Dataset organs/tumors and corresponding label index*
+   Please refer to the repo [CLIP-Driven-Universal-Model](https://github.com/ljwztc/CLIP-Driven-Universal-Model/tree/main) for more details about the label transfer process.
+   
+4. ***Dataset organs/tumors and corresponding label index*
     | Index | Organ              | Index | Organ                | Index | Organ               | Index | Organ              |
     |-------|--------------------|-------|----------------------|-------|---------------------|-------|--------------------|
     | 1     | Spleen             | 9     | Postcava             | 17    | Left Lung           | 25    | Celiac Trunk       |
