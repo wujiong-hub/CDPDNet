@@ -19,14 +19,7 @@ This repository is the official implementation for the paper:
 
 ---
 
-## Environment
-- git clone https://github.com/wujiong-hub/CDPDNet.git
-- conda create -n cdpdnet python=3.9
-- conda activate cdpdnet
-- pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121
-  (Please modify according to your server CUDA version)
-- pip install 'monai[all]'
-- pip install -r requirements.txt
+<pre> ## Environment ```bash # Clone the repository git clone https://github.com/wujiong-hub/CDPDNet.git # Create and activate a new conda environment conda create -n cdpdnet python=3.9 conda activate cdpdnet # Install PyTorch (modify according to your CUDA version) pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121 # Install MONAI and other requirements pip install 'monai[all]' pip install -r requirements.txt ``` </pre>
 
 ## Datasets
 - [01 Multi-Atlas Labeling Beyond the Cranial Vault - Workshop and Challenge (BTCV)](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
