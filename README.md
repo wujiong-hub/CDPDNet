@@ -28,7 +28,6 @@ This repository is the official implementation for the paper:
 - pip install 'monai[all]'
 - pip install -r requirements.txt
 
-
 ## Datasets
 - [01 Multi-Atlas Labeling Beyond the Cranial Vault - Workshop and Challenge (BTCV)](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
 - [02 Pancreas-CT TCIA](https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT) and The label we used for Dataset 01 and 02 is [here](https://zenodo.org/records/1169361)
@@ -76,6 +75,11 @@ The post_label can be downloaded via [link](https://portland-my.sharepoint.com/:
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=1238 train.py --data_root_path DATA_DIR --dist True --uniform_sample
 ```
 ## Testing
+1. Do the inference process directly adopted our trained model
+- cd pretrained_weights/
+- wget https://huggingface.co/jwu2009/CDPDNet/resolve/main/cdpdnet.pth?download=true
+- cd ../
+- 
 ```python
 CUDA_VISIBLE_DEVICES=0 python test.py --data_root_path DATA_DIR --resume CHECKPOINT_PATH 
 ```
