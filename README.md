@@ -109,6 +109,15 @@ We appreciate the effort of the following repositories in providing open-source 
 ## Citation
 If you find this repository useful, please consider citing this paper:
 ```
+@misc{wu2025cdpdnetintegratingtextguidance,
+      title={CDPDNet: Integrating Text Guidance with Hybrid Vision Encoders for Medical Image Segmentation}, 
+      author={Jiong Wu and Yang Xing and Boxiao Yu and Wei Shao and Kuang Gong},
+      year={2025},
+      eprint={2505.18958},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.18958}, 
+}
 ```
 
 
