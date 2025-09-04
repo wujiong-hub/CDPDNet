@@ -9,8 +9,8 @@ DiffOp-net: A Differential Operator-based Fully Convolutional Network for Unsupe
 git clone https://github.com/wujiong-hub/DiffOp-net.git
 
 # Create and activate a new conda environment
-conda create -n diffopnet python=3.8
-conda activate diffopnet
+conda create -n cdpdnet python=3.9
+conda activate cdpdnet
 
 # Install PyTorch (please modify according to your server's CUDA version)
 pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121
