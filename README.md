@@ -20,7 +20,7 @@ This repository is the official implementation for the paper:
 
 ```bash
 # Clone the repository
-git clone https://github.com/wujiong-hub/DiffOp-net.git
+git clone https://github.com/wujiong-hub/CDPDNet.git
 
 # Create and activate a new conda environment
 conda create -n cdpdnet python=3.9
